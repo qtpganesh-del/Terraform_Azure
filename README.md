@@ -1,2 +1,3 @@
-# Terraform_Azure
-Terraform project for Azure infrastructure with reusable modules and remote backend
+# Azure Infrastructure using Terraform
+
+Modular Terraform project for Azure resources.
