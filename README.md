@@ -14,8 +14,9 @@ This project demonstrates provisioning Azure infrastructure using Terraform with
 ## ⚙️ Features
 - Modular Terraform code
 - Remote backend using Azure Storage
-- Reusable modules
+- Reusable modules for scalability
 - Infrastructure as Code (IaC)
+- Easy to extend for multi-environment setup
 
 ## 📂 Project Structure
 - modules/ → reusable components (vnet, vm)
@@ -26,7 +27,11 @@ This project demonstrates provisioning Azure infrastructure using Terraform with
 - outputs.tf → outputs
 
 ## ▶️ How to Run
+## ▶️ How to Run
+
 ```bash
 terraform init
+terraform plan
+terraform apply
 terraform plan
 terraform apply
