@@ -34,5 +34,8 @@ terraform init
 terraform workspace new staging
 terraform workspace select staging
 terrafrom validate
-terraform plan
-terraform apply
+terraform plan -out=tfplan
+terraform apply "tfplan"
+terraform apply -target="module.network"
+terraform destroy -target="module.network"
+terraform destroy
