@@ -31,7 +31,8 @@ This project demonstrates provisioning Azure infrastructure using Terraform with
 
 ```bash
 terraform init
-terraform plan
-terraform apply
+terraform workspace new staging
+terraform workspace select staging
+terrafrom validate
 terraform plan
 terraform apply
